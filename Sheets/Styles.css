@@ -1,0 +1,110 @@
+/*General Style*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #f7f7f7;
+    margin: 0;
+    height: 100%;
+}
+
+/*Header Style*/
+header {
+	display: block;
+	position: relative;
+	margin: auto;
+	margin: 20px 20px 0px 20px;
+	background-color: #f7f7f7;
+}
+
+header a {
+	display: contents;
+}
+
+header a img {
+	display: inline-block;
+	position: relative;
+	width: 20%;
+}
+
+header nav {
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 79%;
+	margin: 0%;
+}	
+
+header nav ul {
+	display: block;
+	position: relative;
+	list-style: none;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding-left: 7%;
+}
+
+header nav ul li {
+	display: contents;
+	position: relative;
+	padding: 1% 8%;
+}
+
+.menu {
+	border-right: 2px solid black;
+}
+
+header nav ul li a {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-size: 1vw;
+	color: black;
+	padding: 1% 8%;
+}
+ header nav article {
+ 	display: block;
+ 	margin-top: 1%;
+ }
+
+ header nav article h2 {
+ 	display: inline-block;
+ 	margin-top: auto;
+ 	margin-bottom: 0%;
+ 	margin-right: 2%;
+ 	float:right;
+ 	font-size: 1vw;
+ }
+
+ header nav article a img {
+ 	display: inline-block;
+ 	position: relative;
+ 	float: right;
+ 	margin-top: 0%;
+ 	margin-bottom: 0%;
+ 	margin-right: 2%;
+ 	max-width: 2%;
+ }
+
+#cuerpo {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 0%;
+	padding-top: 0%;
+	background-color: black;
+	border-style: solid;
+}
+
+ /*Contacto Styles*/
+ #informacion {
+ 	width: 90%;
+ 	background-color: #f7f7f7;
+ 	margin: 10% auto;
+ }
+
+ .company {
+ 	background-color: gray;
+ }
