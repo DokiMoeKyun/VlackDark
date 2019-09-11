@@ -136,11 +136,36 @@ header nav ul li a {
 
  /*Contacto Styles*/
  #informacion {
- 	width: 90%;
+ 	width: 85%;
+    height: 79vh;
  	background-color: #f7f7f7;
- 	margin: 10% auto;
+ 	margin: 1% auto;
  }
 
- .company {
+.company {
+    position: relative;
  	background-color: gray;
+    top: 5%;
+    font-size: 2vw;
+    text-align: center;
+    margin: 3% auto;
  }
+
+.inf {
+    position: relative;
+    top: 3%;
+    font-size: 1.3vw;
+    text-align: center;
+    margin: 3% 10%;
+}
+
+#imgcontainer {
+    display: flex;
+    justify-content:space-around;
+}
+
+.img {
+    display: inline-block;
+    width: 5vw;
+    margin: auto 4%;
+}
